@@ -41,7 +41,7 @@ void List<T>::addFirst(T *element)
 	size++;
 }
 template <class T>
-void List<T>::addLast(T element){
+void List<T>::addLast(T *element){
 	Nodo<T>* newest;
 			if(isEmpty()){
 				*head = *newest;
